@@ -17,11 +17,3 @@ form {
   margin-bottom: 10px;
   margin-top: 3px;
 }
-
-.block-name {
-  position: absolute;
-  top: -26px;
-  left: 10px;
-  background-color: white;
-  padding: 0 5px;
-}
