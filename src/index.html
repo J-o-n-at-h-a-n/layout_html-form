@@ -10,7 +10,11 @@
   </head>
 
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application " method="post">
+    <form
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="post"
+      onsubmit="onSubmit()"
+    >
       <fieldset class="form">
         <legend>
           Personal information
@@ -229,7 +233,7 @@
         </div>
       </fieldset>
 
-      <button onsubmit="onSubmit()">Submit</button>
+      <button type="submit">Submit</button>
     </form>
     <script type="text/javascript" src="./main.js"></script>
   </body>
